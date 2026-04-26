@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+html,
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f4f7f3 0%, #eef3ec 50%, #e6ddc9 100%);
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* hide scrollbar in chat list while keeping scroll */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
