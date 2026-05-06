@@ -1,4 +1,4 @@
-{
+  {
   "name": "geyvak",
   "version": "0.1.0",
   "private": true,
@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@google/genai": "latest",
+    "@anthropic-ai/sdk": "^0.32.1",
     "framer-motion": "^11.11.0",
     "lucide-react": "^0.460.0",
     "next": "^15.0.0",
